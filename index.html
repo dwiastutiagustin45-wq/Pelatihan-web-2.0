@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class=" min-h-screen flex flex-col">
+    <div id="navbar" class="flex justify-between items-center shadow-md sticky top-0 z-50">
+        <b>My Portofolio</b>
+    <div>
+        <a href="index.html" class="px-3 py-1 rounded-full transition duration-500 hover:bg-sky-500 hover:!text-sky-950">Home</a>
+        <a href="#about" class="px-3 py-1 rounded-full transition duration-500 hover:bg-sky-500 hover:!text-sky-950">About Me</a>
+        <a href="contact.html" class="px-3 py-1 rounded-full transition duration-500 hover:bg-sky-500 hover:!text-sky-950">Contact</a>
+    </div>
+
+    </div>
+    <center>
+    <h1 class="font-bold my-6 text-2xl">Welcome</h1>
+    </center>
+
+    <!-- Profile -->
+
+    <div class="kotak shadow-lg transition duration-300 hover:-translate-y-4 hover:shadow-2xl">
+        <h2 class="text-lg font-bold">Hello</h2>
+        <h3 class="text-2xl font-bold my-2"> Agustin Dwi Astuti 
+            <br>Bisnis F&B 
+        </h3>
+        <img src="img/FT 2.jpeg" alt="foto" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;" class="mx-auto border-white border-4 shadow-lg">
+
+        <h2 id="about" class="text-2xl font-bold my-2">About Me</h2>
+        <p>Halo semuanya perkenalkan aku Agustin Dwi Astuti, salah satu mahasiswa UPN "Vetera" Yogyakarta dari Fakultas FEB prodi Manajemen.
+            men.... </p>
+
+    </div>
+
+    <div class="kotak shadow-lg transition duration-300 hover:-translate-y-4 hover:shadow-2xl">  
+
+    <h2 class="font-bold text-2xl mb-4">Hubungi Saya</h2>
+    <form method="post" action="dwiastutiagustin45@gmail.com" enctype="text/plain">
+        Nama: <br>
+        <input type="text" name="nama" class="rounded-lg p-2 text-black bg-white"> <br> <br>
+        Email: <br>
+        <input type="text" name="Email" class="rounded-lg p-2 text-black bg-white"> <br> <br>
+
+        Keperluan: <br>
+        <input type="radio" name="Keperluan" value="projek"> projek
+        <input type="radio" name="Keperluan" value="kerja sama"> kerja sama
+        <input type="radio" name="Keperluan" value="lain-lain"> lain-lain
+        <br> <br>
+
+        Pesan: <br>
+        <textarea name="Pesan" rows="4" cols="40" class="rounded-lg p-2 text-black bg-white"></textarea>
+        <br> <br>
+
+        <input type="submit" value="kirim" class="bg-black text-sky-400 px-6 py-2 rounded-lg cursor-pointer transition hover:bg-sky-400 hover:text-black">
+        <input type="reset" value="hapus" class="bg-black text-sky-400 px-6 py-2 rounded-lg cursor-pointer transition hover:bg-sky-400 hover:text-black">
+    </form>
+
+    </div>
+
+    <div id="footer" class="text-center">
+        
+        <div class="max-w-2xl mx-auto py-3 ">   
+            <h4 class="font-bold text-2xl mb-1">let's work together</h4>
+            <p class="mb-4">Mau Pesan? Hubungi Saya</p>
+            <a href="contact.html" class="ml-0! px-4 py-1 rounded-full bg-white/20 transition duration-300 hover:bg-white hover:text-black">Instagram</a>
+            <a href="contact.html" class="ml-0! px-4 py-1 rounded-full bg-white/20 transition duration-300 hover:bg-white hover:text-black">Whatsapp</a>
+            <a href="contact.html" class="ml-0! px-4 py-1 rounded-full bg-white/20 transition duration-300 hover:bg-white hover:text-black">Linkedin</a>
+            <p class="text-sm opacity-80">&copy; copyright 2026</p>
+        </div>
+    </div>
+</body>
+</html>
